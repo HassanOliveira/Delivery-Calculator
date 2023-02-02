@@ -1,0 +1,185 @@
+html {
+  height: 100%;
+}
+
+body {
+  justify-content: center;
+}
+
+.form-container {
+  /* Div that contains all the content, without the footer */
+
+  height: 66.5vh;
+}
+
+
+form {
+  /* Form that includes the title, labels and inputs */
+
+  font-family: 'Courier New', Courier, monospace;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 290px;
+  height: 230px;
+
+  margin: 200px 0 0 41.5vw;
+  padding: 30px;
+
+  border: 4px solid;
+  border-color: black;
+  border-radius: 10px 10px 0 0;
+}
+
+form h1 {
+  /* Deliver Fee Calculator */
+
+  font-size: 16px;
+
+  width: 330px;
+
+  margin: -34px 0 30px -34px;
+  padding: 6px 0 6px 20px;
+
+  border: 4px solid; 
+  border-color: black;
+  border-radius: 10px 10px 0 0;
+}
+
+label{
+  /* Cart Value:
+     Delivery distance:
+     Amount of items:
+     Time:
+  */
+
+  font-size: 14px;
+  
+  display: flex;
+  flex-direction: row;
+
+  width: 330px;
+}
+
+.euro {
+  /* € */
+
+
+  margin: -1px 0 0 10px;
+}
+
+.meters {
+  /* m */
+
+  margin: -1px 0 0 10px;
+}
+
+input {
+  /* Input box */
+
+  font-family: 'Courier New', Courier, monospace;
+
+  width: 60px;
+
+  margin: -3px 0 20px 10px;
+
+  border: 2px solid;
+}
+
+.errorMessage {
+  /* Error message when you type in the wrong format */
+  
+  margin-top: -8px;
+  margin-left: 20px;
+
+  color: red;
+}
+
+.button {
+  /* Calculate delivery price */
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+
+  width: 240px;
+
+  padding: 5px 0 3px 0;
+
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px 0px black;
+  
+  background-color: white;
+}
+
+.button:hover {
+  /* Calculate delivery price */
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+
+  width: 240px;
+
+  padding: 5px 0 3px 0;
+
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px 0px black;
+  
+  background-color: rgb(230, 229, 229);
+}
+
+.bottomCard {
+  /* Bottom of the card */
+
+  display: flex;
+  flex-direction: column;
+
+  width: 326px;
+
+  margin: -15px 0 0 41.5vw;
+  padding: 12px;
+
+  border: 4px solid black;
+  border-radius: 0 0 10px 10px;
+}
+
+.deliveryPrice {
+  /* Delivery Price:  € */
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 326px;
+
+  margin: -56px 0 0 42.2vw;
+  padding: 26px;
+}
+
+footer {
+  /* Footer box: 
+  
+  "This site was fully developed and styled by Hassan Bittencourt, using Python Django Framework and ReactJS."
+  
+  */
+
+  font-size: 10px;
+
+  background-color: black;
+  color: white;
+
+  padding: 2.5vh 0px 2.5vh 0px;
+
+  text-align: center;
+}
+
+footer h2 a{
+  /* Hassan Bittencourt */
+
+  text-decoration: none;
+  color: blue;
+}
