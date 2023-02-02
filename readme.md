@@ -61,6 +61,9 @@ $ python3 manage.py runserver
 # Open another terminal and go to frontend folder
 $ cd frontend
 
+# Install the npm
+$ npm install
+
 # Run the project
 $ npm start
 ```
