@@ -35,7 +35,7 @@ Also it's nice to have an editor to work with the code like [VSCode](https://cod
 
 ```bash
 # Clone this repository
-$ git clone <https://github.com/HassanOliveira/DeliveryCalculator-Django-ReactJS>
+$ git clone https://github.com/HassanOliveira/DeliveryCalculator-Django-ReactJS
 
 # Access project folder in terminal/cmd
 $ cd DeliveryCalculator-Django-ReactJS
